@@ -1,0 +1,1972 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="موبايلات موبينيو - أحدث الهواتف الذكية في السعودية بأسعار تنافسية وجودة عالية">
+    <meta name="keywords" content="موبينيو, جوالات, هواتف ذكية, السعودية, ايفون, سامسونج, اوبو, شاومي, ريلمي, هونر, انفينكس">
+    <title>موبينيو | أحدث هواتف 2025 في السعودية</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --secondary: #e74c3c;
+            --accent: #3498db;
+            --light: #ecf0f1;
+            --dark: #2c3e50;
+            --text: #333;
+            --text-light: #7f8c8d;
+            --bg: #f9f9f9;
+            --success: #27ae60;
+            --warning: #f39c12;
+            --radius: 12px;
+            --shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            --transition: all 0.3s ease;
+            --glass: rgba(255, 255, 255, 0.2);
+            --glass-border: rgba(255, 255, 255, 0.3);
+            --neumorph: 8px 8px 16px rgba(0, 0, 0, 0.1), -8px -8px 16px rgba(255, 255, 255, 0.5);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Oswald', 'Tajawal', sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background-color: var(--bg);
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            transition: var(--transition);
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 30px;
+        }
+
+        .section {
+            padding: 100px 0;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 70px;
+        }
+
+        .section-title h2 {
+            font-size: 2.8rem;
+            color: var(--dark);
+            position: relative;
+            display: inline-block;
+            padding-bottom: 15px;
+        }
+
+        .section-title h2::after {
+            content: '';
+            position: absolute;
+            width: 100px;
+            height: 4px;
+            background: var(--secondary);
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 2px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 14px 32px;
+            background-color: var(--secondary);
+            color: white;
+            border-radius: var(--radius);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: var(--transition);
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            box-shadow: var(--neumorph);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn:hover {
+            background-color: #c0392b;
+            transform: translateY(-5px);
+            box-shadow: 0 15px 25px rgba(231, 76, 60, 0.3);
+        }
+
+        .btn::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 5px;
+            height: 5px;
+            background: rgba(255, 255, 255, 0.5);
+            opacity: 0;
+            border-radius: 100%;
+            transform: scale(1, 1) translate(-50%);
+            transform-origin: 50% 50%;
+        }
+
+        .btn:focus:not(:active)::after {
+            animation: ripple 1s ease-out;
+        }
+
+        @keyframes ripple {
+            0% {
+                transform: scale(0, 0);
+                opacity: 0.5;
+            }
+            100% {
+                transform: scale(20, 20);
+                opacity: 0;
+            }
+        }
+
+        /* Header with Saudi Flag Animation */
+        header {
+            background-color: white;
+            box-shadow: var(--shadow);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logo {
+            height: 50px;
+            transition: var(--transition);
+        }
+
+        .logo:hover {
+            transform: rotate(5deg) scale(1.05);
+        }
+
+        .saudi-flag {
+            height: 30px;
+            animation: wave 3s infinite ease-in-out;
+        }
+
+        @keyframes wave {
+            0%, 100% {
+                transform: rotate(0deg);
+            }
+            25% {
+                transform: rotate(5deg);
+            }
+            75% {
+                transform: rotate(-5deg);
+            }
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 40px;
+        }
+
+        .nav-links li a {
+            font-weight: 500;
+            font-size: 18px;
+            transition: var(--transition);
+            position: relative;
+            padding: 5px 0;
+        }
+
+        .nav-links li a:hover {
+            color: var(--secondary);
+        }
+
+        .nav-links li a::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 3px;
+            background: var(--secondary);
+            bottom: 0;
+            right: 0;
+            transition: var(--transition);
+            border-radius: 3px;
+        }
+
+        .nav-links li a:hover::after {
+            width: 100%;
+            left: 0;
+        }
+
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 28px;
+            cursor: pointer;
+            color: var(--dark);
+            z-index: 1001;
+        }
+
+        /* Hero Section with Gradient Animation */
+        .hero {
+            height: 100vh;
+            background: linear-gradient(-45deg, #2c3e50, #e74c3c, #3498db, #27ae60);
+            background-size: 400% 400%;
+            animation: gradientBG 15s ease infinite;
+            color: white;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            margin-top: 90px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        @keyframes gradientBG {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+            opacity: 0.2;
+            z-index: 0;
+        }
+
+        .hero-content {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 30px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+            margin-bottom: 25px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            line-height: 1.2;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+            animation: fadeInUp 1s ease;
+        }
+
+        .hero p {
+            font-size: 1.4rem;
+            margin-bottom: 40px;
+            opacity: 0.9;
+            animation: fadeInUp 1s ease 0.3s forwards;
+            opacity: 0;
+        }
+
+        .hero .btn {
+            animation: fadeInUp 1s ease 0.6s forwards;
+            opacity: 0;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Features Section with Glassmorphism */
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 40px;
+        }
+
+        .feature-card {
+            background: var(--glass);
+            backdrop-filter: blur(10px);
+            padding: 40px 30px;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            text-align: center;
+            transition: var(--transition);
+            border: 1px solid var(--glass-border);
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+        }
+
+        .feature-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+            z-index: -1;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .feature-icon {
+            font-size: 60px;
+            color: white;
+            margin-bottom: 25px;
+            background: var(--secondary);
+            width: 90px;
+            height: 90px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            box-shadow: var(--neumorph);
+        }
+
+        .feature-card h3 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            color: white;
+        }
+
+        .feature-card p {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 1.1rem;
+        }
+
+        /* Products Section with Hover Effects */
+        .products {
+            background-color: #f5f5f5;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .product-card {
+            background: white;
+            border-radius: var(--radius);
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            position: relative;
+        }
+
+        .product-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .product-badge {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            background: var(--secondary);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 30px;
+            font-size: 14px;
+            z-index: 2;
+        }
+
+        .product-img {
+            height: 300px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .product-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            padding: 20px;
+            background: #f9f9f9;
+            transition: var(--transition);
+        }
+
+        .product-card:hover .product-img img {
+            transform: scale(1.05);
+        }
+
+        .product-info {
+            padding: 25px;
+            position: relative;
+        }
+
+        .product-info h3 {
+            font-size: 1.4rem;
+            margin-bottom: 10px;
+        }
+
+        .product-brand {
+            color: var(--text-light);
+            font-size: 0.9rem;
+            margin-bottom: 5px;
+        }
+
+        .product-specs {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 15px 0;
+        }
+
+        .spec-item {
+            background: #f0f0f0;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 0.8rem;
+            color: var(--text-light);
+        }
+
+        .product-price {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .price {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: var(--secondary);
+        }
+
+        .old-price {
+            text-decoration: line-through;
+            color: var(--text-light);
+            font-size: 1rem;
+            margin-right: 10px;
+        }
+
+        .add-to-cart {
+            background: var(--primary);
+            color: white;
+            border: none;
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .add-to-cart:hover {
+            background: var(--secondary);
+            transform: rotate(15deg);
+        }
+
+        /* Tech Tips Section */
+        .tech-tips {
+            background: linear-gradient(135deg, #2c3e50, #4a6491);
+            color: white;
+        }
+
+        .tech-tips .section-title h2 {
+            color: white;
+        }
+
+        .tech-tips .section-title h2::after {
+            background: var(--accent);
+        }
+
+        .tips-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 40px;
+        }
+
+        .tip-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 30px;
+            border-radius: var(--radius);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: var(--transition);
+        }
+
+        .tip-card:hover {
+            transform: translateY(-10px);
+            background: rgba(255, 255, 255, 0.15);
+        }
+
+        .tip-card h3 {
+            font-size: 1.6rem;
+            margin-bottom: 20px;
+            color: white;
+            position: relative;
+            padding-bottom: 15px;
+        }
+
+        .tip-card h3::after {
+            content: '';
+            position: absolute;
+            width: 50px;
+            height: 3px;
+            background: var(--accent);
+            bottom: 0;
+            right: 0;
+        }
+
+        .tip-card ul {
+            margin-top: 20px;
+        }
+
+        .tip-card li {
+            margin-bottom: 12px;
+            position: relative;
+            padding-right: 25px;
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        .tip-card li::before {
+            content: '✓';
+            position: absolute;
+            right: 0;
+            top: 0;
+            color: var(--accent);
+            font-weight: bold;
+        }
+
+        /* Security Section */
+        .security-tips {
+            background-color: #f0f2f5;
+        }
+
+        .security-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .security-card {
+            background: white;
+            padding: 30px;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .security-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .security-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            color: var(--primary);
+        }
+
+        .security-card p {
+            color: var(--text-light);
+            margin-bottom: 15px;
+        }
+
+        .security-icon {
+            font-size: 40px;
+            color: var(--secondary);
+            margin-bottom: 20px;
+        }
+
+        /* Testimonials Section with Slider */
+        .testimonials {
+            background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+            color: white;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .testimonials .section-title h2 {
+            color: white;
+        }
+
+        .testimonials .section-title h2::after {
+            background: white;
+        }
+
+        .testimonial-slider {
+            position: relative;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 30px;
+        }
+
+        .testimonial-track {
+            display: flex;
+            gap: 30px;
+            padding: 20px 0;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+        }
+
+        .testimonial-track::-webkit-scrollbar {
+            display: none;
+        }
+
+        .testimonial-card {
+            scroll-snap-align: start;
+            flex: 0 0 calc(33.333% - 20px);
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 40px 30px;
+            border-radius: var(--radius);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: var(--transition);
+            min-width: 300px;
+        }
+
+        .testimonial-text {
+            font-style: italic;
+            margin-bottom: 25px;
+            position: relative;
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+
+        .testimonial-text::before,
+        .testimonial-text::after {
+            content: '"';
+            font-size: 3rem;
+            color: rgba(255, 255, 255, 0.2);
+            position: absolute;
+            font-family: serif;
+            line-height: 1;
+        }
+
+        .testimonial-text::before {
+            top: -15px;
+            right: -10px;
+        }
+
+        .testimonial-text::after {
+            bottom: -40px;
+            left: -10px;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .author-img {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 3px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .author-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .author-info h4 {
+            font-size: 1.2rem;
+            margin-bottom: 5px;
+        }
+
+        .author-info p {
+            opacity: 0.8;
+            font-size: 0.9rem;
+        }
+
+        .slider-nav {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 40px;
+        }
+
+        .slider-dot {
+            width: 12px;
+            height: 12px;
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .slider-dot.active {
+            background: white;
+            transform: scale(1.3);
+        }
+
+        /* Newsletter Section with Confetti */
+        .newsletter {
+            background-color: var(--primary);
+            color: white;
+            text-align: center;
+            padding: 80px 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .newsletter h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .newsletter p {
+            max-width: 700px;
+            margin: 0 auto 40px;
+            opacity: 0.9;
+            font-size: 1.1rem;
+        }
+
+        .newsletter-form {
+            display: flex;
+            max-width: 600px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .newsletter-form input {
+            flex: 1;
+            padding: 18px 25px;
+            border: none;
+            border-radius: var(--radius) 0 0 var(--radius);
+            font-family: inherit;
+            font-size: 16px;
+            background: rgba(255, 255, 255, 0.9);
+        }
+
+        .newsletter-form button {
+            padding: 0 40px;
+            background-color: var(--secondary);
+            color: white;
+            border: none;
+            border-radius: 0 var(--radius) var(--radius) 0;
+            font-family: inherit;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .newsletter-form button:hover {
+            background-color: #c0392b;
+        }
+
+        .confetti {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background-color: #f00;
+            opacity: 0;
+        }
+
+        /* Payment Tips Section */
+        .payment-tips {
+            background-color: #f0f2f5;
+        }
+
+        .payment-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .payment-card {
+            background: white;
+            padding: 30px;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .payment-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .payment-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            color: var(--primary);
+        }
+
+        .payment-card p {
+            color: var(--text-light);
+            margin-bottom: 15px;
+        }
+
+        .payment-icon {
+            font-size: 40px;
+            color: var(--success);
+            margin-bottom: 20px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--dark);
+            color: white;
+            padding: 80px 0 30px;
+            position: relative;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 50px;
+            margin-bottom: 50px;
+        }
+
+        .footer-column h3 {
+            font-size: 1.5rem;
+            margin-bottom: 25px;
+            position: relative;
+            padding-bottom: 15px;
+        }
+
+        .footer-column h3::after {
+            content: '';
+            position: absolute;
+            width: 60px;
+            height: 3px;
+            background: var(--secondary);
+            bottom: 0;
+            right: 0;
+        }
+
+        .footer-column p {
+            opacity: 0.8;
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+
+        .footer-links li {
+            margin-bottom: 15px;
+        }
+
+        .footer-links a {
+            opacity: 0.8;
+            transition: var(--transition);
+            display: block;
+            padding: 5px 0;
+            position: relative;
+            padding-right: 20px;
+        }
+
+        .footer-links a:hover {
+            opacity: 1;
+            color: var(--secondary);
+            padding-right: 30px;
+        }
+
+        .footer-links a::before {
+            content: '→';
+            position: absolute;
+            right: 0;
+            top: 5px;
+            opacity: 0;
+            transition: var(--transition);
+        }
+
+        .footer-links a:hover::before {
+            opacity: 1;
+            right: -10px;
+        }
+
+        .copyright {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            opacity: 0.7;
+            font-size: 0.9rem;
+        }
+
+        .designer-credit {
+            text-align: center;
+            margin-top: 15px;
+            font-size: 0.9rem;
+            opacity: 0.7;
+        }
+
+        .designer-credit a {
+            color: var(--secondary);
+            font-weight: 600;
+        }
+
+        /* Scroll to Top Button */
+        .scroll-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            background: var(--secondary);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: var(--transition);
+            opacity: 0;
+            visibility: hidden;
+            z-index: 999;
+            box-shadow: 0 5px 15px rgba(231, 76, 60, 0.3);
+        }
+
+        .scroll-top.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .scroll-top:hover {
+            transform: translateY(-5px);
+            background: #c0392b;
+        }
+
+        /* Modal */
+        .modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            backdrop-filter: blur(5px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 10000;
+            opacity: 0;
+            visibility: hidden;
+            transition: var(--transition);
+        }
+
+        .modal.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .modal-content {
+            background: white;
+            padding: 40px;
+            border-radius: var(--radius);
+            max-width: 500px;
+            width: 90%;
+            text-align: center;
+            position: relative;
+            transform: translateY(50px);
+            transition: var(--transition);
+        }
+
+        .modal.active .modal-content {
+            transform: translateY(0);
+        }
+
+        .modal h3 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: var(--secondary);
+        }
+
+        .modal p {
+            margin-bottom: 30px;
+            font-size: 1.1rem;
+        }
+
+        .close-modal {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            font-size: 24px;
+            cursor: pointer;
+            color: var(--text-light);
+            transition: var(--transition);
+        }
+
+        .close-modal:hover {
+            color: var(--secondary);
+            transform: rotate(90deg);
+        }
+
+        /* Responsive */
+        @media (max-width: 1200px) {
+            .hero h1 {
+                font-size: 3.5rem;
+            }
+            
+            .testimonial-card {
+                flex: 0 0 calc(50% - 15px);
+            }
+        }
+
+        @media (max-width: 992px) {
+            .hero h1 {
+                font-size: 3rem;
+            }
+            
+            .section {
+                padding: 80px 0;
+            }
+            
+            .section-title h2 {
+                font-size: 2.5rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .mobile-menu-btn {
+                display: block;
+            }
+
+            .nav-links {
+                position: fixed;
+                top: 90px;
+                right: -100%;
+                width: 80%;
+                height: calc(100vh - 90px);
+                background: white;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 30px;
+                transition: var(--transition);
+                box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+            }
+
+            .nav-links.active {
+                right: 0;
+            }
+
+            .hero {
+                margin-top: 90px;
+            }
+            
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero p {
+                font-size: 1.2rem;
+            }
+            
+            .section-title h2 {
+                font-size: 2.2rem;
+            }
+            
+            .newsletter-form {
+                flex-direction: column;
+            }
+
+            .newsletter-form input,
+            .newsletter-form button {
+                border-radius: var(--radius);
+                width: 100%;
+            }
+
+            .newsletter-form button {
+                margin-top: 10px;
+                padding: 15px;
+            }
+            
+            .testimonial-card {
+                flex: 0 0 100%;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .container {
+                padding: 0 20px;
+            }
+            
+            .hero h1 {
+                font-size: 2rem;
+                letter-spacing: 1px;
+            }
+            
+            .hero p {
+                font-size: 1rem;
+            }
+            
+            .btn {
+                padding: 12px 25px;
+                font-size: 14px;
+            }
+            
+            .section-title h2 {
+                font-size: 1.8rem;
+            }
+            
+            .features {
+                grid-template-columns: 1fr;
+            }
+            
+            .product-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .footer-content {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo-container">
+                    <a href="#">
+                        <img src="MOBINEW logo Design.png" alt="Mobinew Logo" class="logo">
+                    </a>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/1200px-Flag_of_Saudi_Arabia.svg.png" alt="Saudi Flag" class="saudi-flag">
+                </div>
+                <button class="mobile-menu-btn">☰</button>
+                <ul class="nav-links">
+                    <li><a href="#home">الرئيسية</a></li>
+                    <li><a href="#products">المنتجات</a></li>
+                    <li><a href="#tech-tips">نصائح تقنية</a></li>
+                    <li><a href="#security">نصائح أمان</a></li>
+                    <li><a href="#payment">نصائح الدفع</a></li>
+                    <li><a href="#testimonials">آراء العملاء</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>أحدث هواتف 2025 في السعودية</h1>
+            <p>تسوق أحدث الموبايلات بأفضل الأسعار مع ضمان موبينيو لمدة سنتين وخدمة عملاء على مدار الساعة</p>
+            <a href="#products" class="btn">اكتشف المنتجات</a>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="section products" id="products">
+        <div class="container">
+            <div class="section-title">
+                <h2>أحدث هواتف 2025</h2>
+            </div>
+            <div class="product-grid">
+                <!-- Phone 1 -->
+                <div class="product-card">
+                    <div class="product-badge">الأكثر مبيعاً</div>
+                    <div class="product-img">
+                        <img src="samsunggs25.jpeg" alt="سامسونج جالكسي S25">
+                    </div>
+                    <div class="product-info">
+                        <h3>سامسونج جالكسي S25</h3>
+                        <p class="product-brand">سامسونج</p>
+                        <div class="product-specs">
+                            <span class="spec-item">شاشة 6.8 بوصة</span>
+                            <span class="spec-item">كاميرا 200 ميجابكسل</span>
+                            <span class="spec-item">ذاكرة 16GB</span>
+                        </div>
+                        <div class="product-price">
+                            <div>
+                                <span class="old-price">4,599 ر.س</span>
+                                <span class="price">3,999 ر.س</span>
+                            </div>
+                            <button class="add-to-cart">+</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Phone 2 -->
+                <div class="product-card">
+                    <div class="product-badge">جديد</div>
+                    <div class="product-img">
+                        <img src="apple.jpeg" alt="آيفون 16 برو ماكس">
+                    </div>
+                    <div class="product-info">
+                        <h3>آيفون 16 برو ماكس</h3>
+                        <p class="product-brand">آبل</p>
+                        <div class="product-specs">
+                            <span class="spec-item">شاشة 6.7 بوصة</span>
+                            <span class="spec-item">معالج A18</span>
+                            <span class="spec-item">بطاقة eSIM</span>
+                        </div>
+                        <div class="product-price">
+                            <div>
+                                <span class="old-price">6,299 ر.س</span>
+                                <span class="price">5,799 ر.س</span>
+                            </div>
+                            <button class="add-to-cart">+</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Phone 3 -->
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="note13.jpeg" alt="شاومي ريدمي نوت 13">
+                    </div>
+                    <div class="product-info">
+                        <h3>شاومي ريدمي نوت 13</h3>
+                        <p class="product-brand">شاومي</p>
+                        <div class="product-specs">
+                            <span class="spec-item">شاشة AMOLED</span>
+                            <span class="spec-item">بطارية 5000mAh</span>
+                            <span class="spec-item">شحن 120W</span>
+                        </div>
+                        <div class="product-price">
+                            <div>
+                                <span class="price">1,499 ر.س</span>
+                            </div>
+                            <button class="add-to-cart">+</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Phone 4 -->
+                <div class="product-card">
+                    <div class="product-badge">عرض محدود</div>
+                    <div class="product-img">
+                        <img src="oppo10.jpg" alt="أوبو رينو 10">
+                    </div>
+                    <div class="product-info">
+                        <h3>أوبو رينو 10</h3>
+                        <p class="product-brand">أوبو</p>
+                        <div class="product-specs">
+                            <span class="spec-item">كاميرا 108MP</span>
+                            <span class="spec-item">شاشة 120Hz</span>
+                            <span class="spec-item">تصميم مقاوم للماء</span>
+                        </div>
+                        <div class="product-price">
+                            <div>
+                                <span class="old-price">2,899 ر.س</span>
+                                <span class="price">2,399 ر.س</span>
+                            </div>
+                            <button class="add-to-cart">+</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Phone 5 -->
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="هواوي P60 برو">
+                    </div>
+                    <div class="product-info">
+                        <h3>هواوي P60 برو</h3>
+                        <p class="product-brand">هواوي</p>
+                        <div class="product-specs">
+                            <span class="spec-item">كاميرا Leica</span>
+                            <span class="spec-item">شاشة OLED</span>
+                            <span class="spec-item">HarmonyOS</span>
+                        </div>
+                        <div class="product-price">
+                            <div>
+                                <span class="price">3,199 ر.س</span>
+                            </div>
+                            <button class="add-to-cart">+</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Phone 6 -->
+                <div class="product-card">
+                    <div class="product-badge">وصل حديثاً</div>
+                    <div class="product-img">
+                        <img src="download.jpeg" alt="ون بلس 11">
+                    </div>
+                    <div class="product-info">
+                        <h3>ون بلس 11</h3>
+                        <p class="product-brand">ون بلس</p>
+                        <div class="product-specs">
+                            <span class="spec-item">شاشة 2K</span>
+                            <span class="spec-item">شحن 100W</span>
+                            <span class="spec-item">ذاكرة 12GB</span>
+                        </div>
+                        <div class="product-price">
+                            <div>
+                                <span class="price">2,899 ر.س</span>
+                            </div>
+                            <button class="add-to-cart">+</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Phone 7 -->
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1610792516307-ea5acd9c3b00?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="ريلمي GT 3">
+                    </div>
+                    <div class="product-info">
+                        <h3>ريلمي GT 3</h3>
+                        <p class="product-brand">ريلمي</p>
+                        <div class="product-specs">
+                            <span class="spec-item">معالج سنابدراجون</span>
+                            <span class="spec-item">شاشة 144Hz</span>
+                            <span class="spec-item">تبريد سائل</span>
+                        </div>
+                        <div class="product-price">
+                            <div>
+                                <span class="price">1,799 ر.س</span>
+                            </div>
+                            <button class="add-to-cart">+</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Phone 8 -->
+                <div class="product-card">
+                    <div class="product-badge">الأفضل مبيعاً</div>
+                    <div class="product-img">
+                        <img src="download (1).jpeg" alt="نوكيا X20">
+                    </div>
+                    <div class="product-info">
+                        <h3>نوكيا X20</h3>
+                        <p class="product-brand">نوكيا</p>
+                        <div class="product-specs">
+                            <span class="spec-item">ضمان 3 سنوات</span>
+                            <span class="spec-item">أندرويد خام</span>
+                            <span class="spec-item">تصميم متين</span>
+                        </div>
+                        <div class="product-price">
+                            <div>
+                                <span class="price">1,299 ر.س</span>
+                            </div>
+                            <button class="add-to-cart">+</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Tips Section -->
+    <section class="section tech-tips" id="tech-tips">
+        <div class="container">
+            <div class="section-title">
+                <h2>نصائح عند شراء هاتف جديد</h2>
+            </div>
+            <div class="tips-container">
+                <div class="tip-card">
+                    <h3>اختيار المواصفات المناسبة</h3>
+                    <p>كيف تختار الهاتف الذي يناسب احتياجاتك دون دفع مبالغ زائدة عن المطلوب:</p>
+                    <ul>
+                        <li>حدد ميزانيتك أولاً قبل البحث</li>
+                        <li>اختر حجم الشاشة المناسب لاستخدامك</li>
+                        <li>ركز على جودة الكاميرا إذا كنت من محبي التصوير</li>
+                        <li>لا تهمل سعة البطارية إذا كنت كثير التنقل</li>
+                        <li>تأكد من توافق الهاتف مع شبكات السعودية</li>
+                    </ul>
+                </div>
+                <div class="tip-card">
+                    <h3>فهم مصطلحات التقنية</h3>
+                    <p>دليلك لفهم المصطلحات التقنية عند شراء الهاتف:</p>
+                    <ul>
+                        <li>AMOLED vs IPS: الفرق في جودة الألوان واستهلاك الطاقة</li>
+                        <li>Hz: معدل تحديث الشاشة والأثر على سلاسة الاستخدام</li>
+                        <li>mAh: سعة البطارية والعمر المتوقع</li>
+                        <li>nm: حجم المعالج وكفاءته</li>
+                        <li>IP Rating: درجة مقاومة الماء والغبار</li>
+                    </ul>
+                </div>
+                <div class="tip-card">
+                    <h3>اختبار الهاتف قبل الشراء</h3>
+                    <p>نصائح عملية عند تجربة الهاتف في المتجر:</p>
+                    <ul>
+                        <li>افحص الشاشة تحت ضوء ساطع لاكتشاف العيوب</li>
+                        <li>جرب الكاميرا في ظروف إضاءة مختلفة</li>
+                        <li>تحقق من سرعة استجابة اللمس</li>
+                        <li>اختبر مكبر الصوت وجودة الميكروفون</li>
+                        <li>تأكد من سلامة منافذ الشحن والسماعات</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Security Tips Section -->
+    <section class="section security-tips" id="security">
+        <div class="container">
+            <div class="section-title">
+                <h2>نصائح أمان عند استخدام الهاتف</h2>
+            </div>
+            <div class="security-grid">
+                <div class="security-card">
+                    <div class="security-icon">🔒</div>
+                    <h3>حماية البيانات الشخصية</h3>
+                    <p>كيف تحافظ على خصوصيتك وأمان بياناتك على الهاتف الذكي:</p>
+                    <ul>
+                        <li>استخدم قفل شاشة قوي (بصمة أو وجه أو رمز)</li>
+                        <li>فعّل التشفير في إعدادات الهاتف</li>
+                        <li>لا تخزن معلومات حساسة في ملاحظات غير محمية</li>
+                    </ul>
+                </div>
+                <div class="security-card">
+                    <div class="security-icon">🛡️</div>
+                    <h3>الحماية من الاختراق</h3>
+                    <p>إجراءات أمنية لحماية هاتفك من الاختراق والتجسس:</p>
+                    <ul>
+                        <li>تجنب شبكات الواي فاي العامة</li>
+                        <li>لا تقم بفتح روابط مشبوهة</li>
+                        <li>استخدم VPN عند الاتصال بشبكات غير موثوقة</li>
+                    </ul>
+                </div>
+                <div class="security-card">
+                    <div class="security-icon">📱</div>
+                    <h3>حماية الأطفال</h3>
+                    <p>كيف تحمي أطفالك من مخاطر الاستخدام غير الآمن للهواتف:</p>
+                    <ul>
+                        <li>استخدم الرقابة الأبوية</li>
+                        <li>حدد وقت الاستخدام اليومي</li>
+                        <li>علمهم عدم مشاركة المعلومات الشخصية</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Payment Tips Section -->
+    <section class="section payment-tips" id="payment">
+        <div class="container">
+            <div class="section-title">
+                <h2>نصائح الدفع الإلكتروني الآمن</h2>
+            </div>
+            <div class="payment-grid">
+                <div class="payment-card">
+                    <div class="payment-icon">💳</div>
+                    <h3>التعامل مع البطاقات</h3>
+                    <p>كيف تحمي نفسك عند استخدام البطاقات الائتمانية للدفع:</p>
+                    <ul>
+                        <li>لا تشارك تفاصيل بطاقتك مع أحد</li>
+                        <li>استخدم بطاقات افتراضية للمشتريات عبر الإنترنت</li>
+                        <li>فعّل التنبيهات على كل عملية شراء</li>
+                    </ul>
+                </div>
+                <div class="payment-card">
+                    <div class="payment-icon">🛒</div>
+                    <h3>التسوق الآمن</h3>
+                    <p>علامات الموقع الآمن عند الشراء عبر الإنترنت:</p>
+                    <ul>
+                        <li>تأكد من وجود https في عنوان الموقع</li>
+                        <li>ابحث عن ختم الأمان أو شهادات الحماية</li>
+                        <li>اقرأ تقييمات المتجر من عملاء سابقين</li>
+                    </ul>
+                </div>
+                <div class="payment-card">
+                    <div class="payment-icon">🚨</div>
+                    <h3>تجنب عمليات الاحتيال</h3>
+                    <p>كيف تكتشف وتتجنب عمليات الاحتيال الإلكتروني:</p>
+                    <ul>
+                        <li>كن حذراً من العروض غير الواقعية</li>
+                        <li>لا تضغط على روابط في رسائل غير معروفة</li>
+                        <li>تأكد من هوية البائع قبل الدفع</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>آراء عملائنا</h2>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial-track">
+                    <!-- Testimonial 1 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-text">
+                            <p>اشتريت هاتفي من موبينيو وكانت تجربة رائعة، المنتج أصلي والسعر ممتاز مع خدمة توصيل سريعة ودعم فني مميز.</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-img">
+                                <img src="rijal.jpeg" alt="أحمد محمد">
+                            </div>
+                            <div class="author-info">
+                                <h4>أحمد محمد</h4>
+                                <p>الرياض</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-text">
+                            <p>أعجبني التعامل الاحترافي وسرعة الاستجابة، الهاتف وصل في الوقت المحدد وكان مغلف بشكل جيد مع جميع الملحقات.</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-img">
+                                <img src="hijab.jpeg" alt="سارة عبدالله">
+                            </div>
+                            <div class="author-info">
+                                <h4>سارة عبدالله</h4>
+                                <p>جدة</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 3 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-text">
+                            <p>نصيحة لكل من يبحث عن هاتف ذكي بجودة عالية وسعر معقول، موبينيو هو الخيار الأمثل بلا شك.</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-img">
+                                <img src="rijal.jpeg" alt="خالد الفهد">
+                            </div>
+                            <div class="author-info">
+                                <h4>خالد الفهد</h4>
+                                <p>الدمام</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 4 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-text">
+                            <p>خدمة العملاء ممتازة وساعدوني في اختيار الهاتف المناسب لميزانيتي واحتياجاتي، شكراً موبينيو.</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-img">
+                                <img src="https://images.unsplash.com/photo-1552058544-f2b08422138a?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="ناصر القحطاني">
+                            </div>
+                            <div class="author-info">
+                                <h4>ناصر القحطاني</h4>
+                                <p>مكة المكرمة</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 5 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-text">
+                            <p>تجربة شراء سلسة وسهلة، الموقع سريع وسهل الاستخدام، والتوصيل كان خلال 24 ساعة كما وعدوا.</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-img">
+                                <img src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="فيصل الحربي">
+                            </div>
+                            <div class="author-info">
+                                <h4>فيصل الحربي</h4>
+                                <p>الشرقية</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 6 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-text">
+                            <p>اشتريت من عدة متاجر إلكترونية ولكن موبينيو الأفضل من حيث السعر والجودة وخدمة ما بعد البيع.</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-img">
+                                <img src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="عبدالرحمن السعد">
+                            </div>
+                            <div class="author-info">
+                                <h4>عبدالرحمن السعد</h4>
+                                <p>حائل</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 7 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-text">
+                            <p>الهاتف وصل مغلف بشكل احترافي مع جميع الإكسسوارات والضمان، وسعر أقل من السوق ب 200 ريال.</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-img">
+                                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="بدر العتيبي">
+                            </div>
+                            <div class="author-info">
+                                <h4>بدر العتيبي</h4>
+                                <p>تبوك</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 8 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-text">
+                            <p>دعم فني ممتاز، ساعدوني في حل مشكلة التقاط الصور بالهاتف الجديد عن بعد بكل صبر واحترافية.</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-img">
+                                <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="سلمان الغامدي">
+                            </div>
+                            <div class="author-info">
+                                <h4>سلمان الغامدي</h4>
+                                <p>أبها</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 9 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-text">
+                            <p>بعد تجربة عدة متاجر، وجدت أن موبينيو يوفر أفضل توازن بين السعر والجودة وخدمة العملاء.</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-img">
+                                <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="تركي النفيعي">
+                            </div>
+                            <div class="author-info">
+                                <h4>تركي النفيعي</h4>
+                                <p>القصيم</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 10 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-text">
+                            <p>التوصيل كان سريعاً والهاتف يعمل بكفاءة عالية، شكراً لفريق موبينيو على النصيحة الجيدة.</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-img">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="ماجد الشهراني">
+                            </div>
+                            <div class="author-info">
+                                <h4>ماجد الشهراني</h4>
+                                <p>نجران</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 11 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-text">
+                            <p>اشتريت هاتفين من موبينيو ولم أواجه أي مشاكل، الضمان شامل وخدمة ما بعد البيع ممتازة.</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-img">
+                                <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="لمى العلي">
+                            </div>
+                            <div class="author-info">
+                                <h4>لمى العلي</h4>
+                                <p>الجبيل</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 12 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-text">
+                            <p>أسعار تنافسية وجودة عالية، أنصح الجميع بالتسوق من موبينيو لشراء الهواتف الذكية.</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-img">
+                                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="نورة السليم">
+                            </div>
+                            <div class="author-info">
+                                <h4>نورة السليم</h4>
+                                <p>الخبر</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-nav">
+                    <div class="slider-dot active"></div>
+                    <div class="slider-dot"></div>
+                    <div class="slider-dot"></div>
+                    <div class="slider-dot"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <h2>اشترك في نشرتنا البريدية</h2>
+            <p>احصل على آخر العروض والتخفيضات مباشرة إلى بريدك الإلكتروني</p>
+            <form class="newsletter-form" id="newsletterForm">
+                <input type="email" placeholder="بريدك الإلكتروني" required>
+                <button type="submit">اشتراك</button>
+            </form>
+            <div id="confetti-container"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>عن موبينيو</h3>
+                    <p>متجر موبينيو هو الوجهة الأولى في السعودية لشراء الهواتف الذكية والأجهزة اللوحية بأسعار تنافسية وجودة مضمونة.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>روابط سريعة</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">الرئيسية</a></li>
+                        <li><a href="#products">المنتجات</a></li>
+                        <li><a href="#tech-tips">نصائح تقنية</a></li>
+                        <li><a href="#security">نصائح أمان</a></li>
+                        <li><a href="#payment">نصائح الدفع</a></li>
+                        <li><a href="#testimonials">آراء العملاء</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>ساعات العمل</h3>
+                    <p>الأحد - الخميس: 9 صباحاً - 10 مساءً</p>
+                    <p>الجمعة - السبت: 4 مساءً - 12 منتصف الليل</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2025 موبينيو. جميع الحقوق محفوظة.</p>
+            </div>
+            <div class="designer-credit">
+                <p>Designed by <a href="#" target="_blank">Mohammed Naeem</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <div class="scroll-top">↑</div>
+
+    <!-- Subscription Modal -->
+    <div class="modal" id="subscriptionModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3>شكراً لك!</h3>
+            <p>تم اشتراكك بنجاح في نشرتنا البريدية. ستتلقى آخر العروض والتخفيضات مباشرة إلى بريدك الإلكتروني.</p>
+            <button class="btn" id="closeModalBtn">حسناً</button>
+        </div>
+    </div>
+
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+        const navLinks = document.querySelector('.nav-links');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            mobileMenuBtn.textContent = navLinks.classList.contains('active') ? '✕' : '☰';
+        });
+
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                mobileMenuBtn.textContent = '☰';
+            });
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Scroll to Top Button
+        const scrollTopBtn = document.querySelector('.scroll-top');
+
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                scrollTopBtn.classList.add('active');
+            } else {
+                scrollTopBtn.classList.remove('active');
+            }
+        });
+
+        scrollTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Testimonial Slider
+        const testimonialTrack = document.querySelector('.testimonial-track');
+        const testimonialCards = document.querySelectorAll('.testimonial-card');
+        const dots = document.querySelectorAll('.slider-dot');
+        let currentIndex = 0;
+
+        function updateSlider() {
+            const cardWidth = testimonialCards[0].offsetWidth + 30;
+            testimonialTrack.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
+            
+            dots.forEach((dot, index) => {
+                dot.classList.toggle('active', index === Math.floor(currentIndex / 3));
+            });
+        }
+
+        dots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+                currentIndex = index * 3;
+                updateSlider();
+            });
+        });
+
+        // Auto slide
+        setInterval(() => {
+            currentIndex = (currentIndex + 1) % (testimonialCards.length - 2);
+            updateSlider();
+        }, 5000);
+
+        // Newsletter Form with Confetti
+        const newsletterForm = document.getElementById('newsletterForm');
+        const subscriptionModal = document.getElementById('subscriptionModal');
+        const closeModal = document.querySelector('.close-modal');
+        const closeModalBtn = document.getElementById('closeModalBtn');
+
+        newsletterForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            subscriptionModal.classList.add('active');
+            createConfetti();
+            newsletterForm.reset();
+        });
+
+        closeModal.addEventListener('click', () => {
+            subscriptionModal.classList.remove('active');
+        });
+
+        closeModalBtn.addEventListener('click', () => {
+            subscriptionModal.classList.remove('active');
+        });
+
+        window.addEventListener('click', (e) => {
+            if (e.target === subscriptionModal) {
+                subscriptionModal.classList.remove('active');
+            }
+        });
+
+        function createConfetti() {
+            const colors = ['#e74c3c', '#3498db', '#2ecc71', '#f1c40f', '#9b59b6'];
+            const container = document.getElementById('confetti-container');
+            container.innerHTML = '';
+            
+            for (let i = 0; i < 100; i++) {
+                const confetti = document.createElement('div');
+                confetti.className = 'confetti';
+                confetti.style.left = Math.random() * 100 + 'vw';
+                confetti.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+                confetti.style.width = Math.random() * 10 + 5 + 'px';
+                confetti.style.height = Math.random() * 10 + 5 + 'px';
+                confetti.style.opacity = Math.random() + 0.5;
+                confetti.style.transform = `rotate(${Math.random() * 360}deg)`;
+                
+                const animation = confetti.animate([
+                    { top: '-10px', opacity: 0 },
+                    { top: '100vh', opacity: 1 }
+                ], {
+                    duration: Math.random() * 3000 + 2000,
+                    easing: 'cubic-bezier(0.1, 0.8, 0.3, 1)',
+                    delay: Math.random() * 2000
+                });
+                
+                container.appendChild(confetti);
+                
+                animation.onfinish = () => {
+                    confetti.remove();
+                };
+            }
+        }
+
+        // Add to Cart Animation
+        const addToCartBtns = document.querySelectorAll('.add-to-cart');
+        
+        addToCartBtns.forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                e.preventDefault();
+                btn.textContent = '✓';
+                btn.style.backgroundColor = '#2ecc71';
+                
+                setTimeout(() => {
+                    btn.innerHTML = '+';
+                    btn.style.backgroundColor = '';
+                }, 2000);
+            });
+        });
+
+        // Animate elements on scroll
+        const animateOnScroll = () => {
+            const elements = document.querySelectorAll('.feature-card, .product-card, .tip-card, .security-card, .payment-card');
+            
+            elements.forEach(element => {
+                const elementPosition = element.getBoundingClientRect().top;
+                const screenPosition = window.innerHeight / 1.3;
+                
+                if (elementPosition < screenPosition) {
+                    element.style.opacity = '1';
+                    element.style.transform = 'translateY(0)';
+                }
+            });
+        };
+
+        document.querySelectorAll('.feature-card, .product-card, .tip-card, .security-card, .payment-card').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+        });
+
+        window.addEventListener('scroll', animateOnScroll);
+        window.addEventListener('load', animateOnScroll);
+    </script>
+</body>
+</html>
